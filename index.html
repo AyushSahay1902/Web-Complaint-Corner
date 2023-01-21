@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complaint Corner</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="sticky">
+        <a href="#" class="logo">Complaint Corner<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+
+        <ul class="navigation">
+            <li><a href="./index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="./medicine.html" onclick="toggleMenu()">Services</a></li>
+            <li><a href="./surgical.html" onclick="toggleMenu()">Track Ticket</a></li>
+            <li><a href="./labs.html" onclick="toggleMenu()">Profiles</a></li>
+            <li><a href="./testimonials.html" onclick="toggleMenu()">Testimonials</a></li>
+            <li><a href="./Contact.html" onclick="toggleMenu()">ContactUs</a></li>
+        </ul>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Car1.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Car2.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="./Car3.jpg" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="search-box">
+        <!-- Example split danger button -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">Select Pincode</button>
+            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">001</a></li>
+                <li><a class="dropdown-item" href="#">002</a></li>
+                <li><a class="dropdown-item" href="#">003</a></li>
+                <li><a class="dropdown-item" href="#">004</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Other</a></li>
+            </ul>
+
+            <form class="d-flex">
+                <input class="form-control me-2" style="width: 100%;" type="search" placeholder="Search"
+                    aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+    <div class="album py-5 bg-light" style="user-select: auto;">
+        <div class="container" style="user-select: auto;">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="user-select: auto;">
+                <div class="col" style="user-select: auto;">
+                    <div class="card shadow-sm" style="user-select: auto;">
+                        <svg width="200" height="200" viewBox="-100 -100 200 200">
+                            <polygon points="0,0 80,120 -80,120" fill="#234236" />
+                            <polygon points="0,-40 60,60 -60,60" fill="#0C5C4C" />
+                            <polygon points="0,-80 40,0 -40,0" fill="#38755B" />
+                            <rect x="-20" y="120" width="40" height="30" fill="brown" />
+                          </svg>
+
+                        <div class="card-body" style="user-select: auto;">
+                            <p class="card-text" style="user-select: auto;">This is a wider card with supporting text
+                                below as a
+                                natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+                                <div class="btn-group" style="user-select: auto;">
+                                    <button type="button" class="btn btn-outline-success"
+                                        style="user-select: auto;">File a complaint</button>
+                                </div>
+                                <!-- <small class="text-muted" style="user-select: auto;">9 mins</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="user-select: auto;">
+                    <div class="card shadow-sm" style="user-select: auto;">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" style="user-select: auto;">
+                            <title style="user-select: auto;">Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" style="user-select: auto;"></rect><text
+                                x="50%" y="50%" fill="#eceeef" dy=".3em" style="user-select: auto;">Feedback loop</text>
+                        </svg>
+
+                        <div class="card-body" style="user-select: auto;">
+                            <p class="card-text" style="user-select: auto;">This is a wider card with supporting text
+                                below as a
+                                natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+                                <div class="btn-group" style="user-select: auto;">
+                                    <button type="button" class="btn btn-outline-success"
+                                        style="user-select: auto;">Give Feedback</button>
+                                </div>
+                                <!-- <small class="text-muted" style="user-select: auto;">9 mins</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="user-select: auto;">
+                    <div class="card shadow-sm" style="user-select: auto;">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" style="user-select: auto;">
+                            <title style="user-select: auto;">Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" style="user-select: auto;"></rect><text
+                                x="50%" y="50%" fill="#eceeef" dy=".3em" style="user-select: auto;">Prioritise your complain</text>
+                        </svg>
+
+                        <div class="card-body" style="user-select: auto;">
+                            <p class="card-text" style="user-select: auto;">This is a wider card with supporting text
+                                below as a
+                                natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+                                <div class="btn-group" style="user-select: auto;">
+                                    <button type="button" class="btn btn-outline-success"
+                                        style="user-select: auto;">Loop Complaint</button>
+                                </div>
+                                <!-- <small class="text-muted" style="user-select: auto;">9 mins</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" style="user-select: auto;">
+                    <div class="card shadow-sm" style="user-select: auto;">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" style="user-select: auto;">
+                            <title style="user-select: auto;">Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" style="user-select: auto;"></rect><text
+                                x="50%" y="50%" fill="#eceeef" dy=".3em" style="user-select: auto;">Live Visuallisation</text>
+                        </svg>
+
+                        <div class="card-body" style="user-select: auto;">
+                            <p class="card-text" style="user-select: auto;">This is a wider card with supporting text
+                                below as a
+                                natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+                                <div class="btn-group" style="user-select: auto;">
+                                    <button type="button" class="btn btn-outline-success"
+                                        style="user-select: auto;">Live Data</button>
+                                </div>
+                                <!-- <small class="text-muted" style="user-select: auto;">9 mins</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="user-select: auto;">
+                    <div class="card shadow-sm" style="user-select: auto;">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" style="user-select: auto;">
+                            <title style="user-select: auto;">Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" style="user-select: auto;"></rect><text
+                                x="50%" y="50%" fill="#eceeef" dy=".3em" style="user-select: auto;">Priorities your complaint</text>
+                        </svg>
+
+                        <div class="card-body" style="user-select: auto;">
+                            <p class="card-text" style="user-select: auto;">This is a wider card with supporting text
+                                below as a
+                                natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+                                <div class="btn-group" style="user-select: auto;">
+                                    <button type="button" class="btn btn-outline-success"
+                                        style="user-select: auto;">Priorities</button>
+                                </div>
+                                <small class="text-muted" style="user-select: auto;">9 mins</small> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="user-select: auto;">
+                    <div class="card shadow-sm" style="user-select: auto;">
+                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                            preserveAspectRatio="xMidYMid slice" focusable="false" style="user-select: auto;">
+                            <title style="user-select: auto;">Placeholder</title>
+                            <rect width="100%" height="100%" fill="#55595c" style="user-select: auto;"></rect><text
+                                x="50%" y="50%" fill="#eceeef" dy=".3em" style="user-select: auto;">Call Support</text>
+                        </svg>
+
+                        <div class="card-body" style="user-select: auto;">
+                            <p class="card-text" style="user-select: auto;">This is a wider card with supporting text
+                                below as a
+                                natural
+                                lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center" style="user-select: auto;">
+                                <div class="btn-group" style="user-select: auto;">
+                                    <button type="button" class="btn btn-outline-success"
+                                        style="user-select: auto;">Enter you mailid/phoneNo.</button>
+                                </div> -->
+                                <!-- <small class="text-muted" style="user-select: auto;">9 mins</small> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container" style="user-select: auto;">
+        <p class="float-end" style="user-select: auto;"><a class="bot" href="#" style="user-select: auto;"><img src="./chat-bot image.jpeg" alt=""></a></p>
+        <p style="user-select: auto;">© 2017–2021 Company, Inc. · <a href="#" style="user-select: auto;">Privacy</a> ·
+            <a href="#" style="user-select: auto;">Terms</a></p>
+        <p style="user-select: auto;">
+            <li><a href="https://www.facebook.com
+                " style="user-select: auto;">Facebook</a></li>
+            <li><a href="#" style="user-select: auto;">Instagram</a></li>
+            <li><a href="#" style="user-select: auto;">Twitter</a></li>
+        </p>    
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
